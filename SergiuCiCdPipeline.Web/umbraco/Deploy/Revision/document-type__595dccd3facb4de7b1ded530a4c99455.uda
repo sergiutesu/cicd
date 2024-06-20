@@ -24,6 +24,13 @@
           "Alias": "text",
           "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
           "Name": "text"
+        },
+        {
+          "Key": "5ec95404-1ad2-4321-9cc4-8a44d4f6960c",
+          "Alias": "textarea",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Name": "textarea",
+          "SortOrder": 1
         }
       ]
     }
@@ -33,6 +40,10 @@
   "Dependencies": [
     {
       "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
       "Ordering": true
     },
     {
