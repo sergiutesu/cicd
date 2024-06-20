@@ -8,6 +8,7 @@
   "HistoryCleanup": {},
   "Icon": "icon-notepad",
   "Thumbnail": "folder.png",
+  "Description": "This is a chance",
   "Permissions": {
     "AllowedAtRoot": true,
     "AllowedChildContentTypes": []
