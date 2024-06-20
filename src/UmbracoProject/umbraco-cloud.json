@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "sergiu ci cd pipeline",
+      "Alias": "sergiu-ci-cd-pipeline",
+      "Id": "ef337441-4718-4a58-828b-3c3a31839ccd",
+      "Workspaces": [
+        {
+          "Id": "ce10f7e0-fd61-4190-9241-dc8dcccd7479",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://sergiu-ci-cd-pipeline.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
