@@ -6,6 +6,12 @@
       "Id": "ef337441-4718-4a58-828b-3c3a31839ccd",
       "Workspaces": [
         {
+          "Id": "1b87f74d-65d4-4ddc-ac22-8db363f62de3",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-sergiu-ci-cd-pipeline.euwest01.umbraco.io"
+        },
+        {
           "Id": "ce10f7e0-fd61-4190-9241-dc8dcccd7479",
           "Name": "Live",
           "Type": "live",
