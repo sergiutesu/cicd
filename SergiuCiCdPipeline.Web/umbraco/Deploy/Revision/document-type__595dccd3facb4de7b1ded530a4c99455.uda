@@ -1,0 +1,45 @@
+{
+  "Name": "Page",
+  "Alias": "page",
+  "DefaultTemplate": "umb://template/b02bebc0ce5a4bacbec7b58910852d76",
+  "AllowedTemplates": [
+    "umb://template/b02bebc0ce5a4bacbec7b58910852d76"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-notepad",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedAtRoot": true,
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "c3ebed52-451e-4238-a01b-399cfd871511",
+      "Name": "Page content",
+      "Alias": "pageContent",
+      "PropertyTypes": [
+        {
+          "Key": "37433066-d21d-497c-b49c-0771dd1f130a",
+          "Alias": "text",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "text"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/595dccd3facb4de7b1ded530a4c99455",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/b02bebc0ce5a4bacbec7b58910852d76",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "14.0.1"
+}

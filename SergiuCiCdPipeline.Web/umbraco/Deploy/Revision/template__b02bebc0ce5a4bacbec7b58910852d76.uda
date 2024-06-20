@@ -1,0 +1,14 @@
+{
+  "Name": "Page",
+  "Alias": "page",
+  "File": "umb://template-file/page.cshtml",
+  "Udi": "umb://template/b02bebc0ce5a4bacbec7b58910852d76",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/page.cshtml",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "14.0.1"
+}

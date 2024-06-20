@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SergiuCiCdPipeline.Web", "SergiuCiCdPipeline.Web\SergiuCiCdPipeline.Web.csproj", "{19726F05-D4EF-4798-BD56-9EE4C2343A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SergiuCiCdPipeline.Core", "SergiuCiCdPipeline.Core\SergiuCiCdPipeline.Core.csproj", "{691ED8BD-EDFF-4BDB-99BB-CD4EB6725AD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19726F05-D4EF-4798-BD56-9EE4C2343A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19726F05-D4EF-4798-BD56-9EE4C2343A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19726F05-D4EF-4798-BD56-9EE4C2343A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19726F05-D4EF-4798-BD56-9EE4C2343A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691ED8BD-EDFF-4BDB-99BB-CD4EB6725AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691ED8BD-EDFF-4BDB-99BB-CD4EB6725AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691ED8BD-EDFF-4BDB-99BB-CD4EB6725AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691ED8BD-EDFF-4BDB-99BB-CD4EB6725AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{1B2B2D51-FE6D-4AB3-9E37-BF495D18A3F7}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.umbraco = .umbraco
+		NuGet.config = NuGet.config
+		Readme.md = Readme.md
+		SergiuCiCdPipeline.Web\umbraco-cloud.json = SergiuCiCdPipeline.Web\umbraco-cloud.json
+	EndProjectSection
+EndProject
